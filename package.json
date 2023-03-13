@@ -1,0 +1,19 @@
+{
+  "name": "ckMongoTest",
+  "version": "1.0.0",
+  "description": "CKs Express Mongo Test on Render",
+  "main": "expresmongo.js",
+  "repository": "https://github.com/ckorpio/MongoTest",
+  "author": "CK",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "node expresmongo.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "engines": {
+    "node": ">=14"
+  }
+}
