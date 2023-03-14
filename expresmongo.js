@@ -1,7 +1,7 @@
 const express = require('express');
 const bodyParser=require('body-parser');
-const api = require('./api');
 
+// const api = require('./api');
 // const mongoose = require('mongoose');
 
 const app = express();
@@ -40,12 +40,6 @@ app.use(express.urlencoded({ extended: true }));
 app.get('/api/:version', function(req, res) {
   res.send(req.params.version);
 });
-
-// ------>>>Step 5.1
-app.use(express.json());
-app.use(express.urlencoded({ extended: true }));
-// ------<<<Step 5.1
-
 
 
 app.get('/users', function(req, res) {
