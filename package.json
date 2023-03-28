@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "CKs Express Mongo Test on Render",
   "main": "testmongo.js",
-  "repository": "https://github.com/zoe-klein/MongoTest",
+  "repository": "https://github.com/zoe-klein/MongoRender",
   "author": "CK",
   "license": "MIT",
   "private": false,
