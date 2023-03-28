@@ -1,7 +1,7 @@
 const { MongoClient } = require("mongodb");
 
 // The uri string must be the connection string for the database (obtained on Atlas).
-const uri = "mongodb+srv://<username>:<password>@zkmdb.cen8f8i.mongodb.net/?retryWrites=true&w=
+const uri = "mongodb+srv://<classuser>:<qBXgK1Y5j5w1iWZK>@zkmdb.cen8f8i.mongodb.net/?retryWrites=true&w=
 majority";
 
 // --- This is the standard stuff to get it to work on the browser
